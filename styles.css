@@ -1,0 +1,79 @@
+
+  html, body, header {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 9vh;
+    background-color: #211f26;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4);
+  }
+  
+  h4{
+padding: 1em;
+color: #EDDB92;
+letter-spacing: 3px;
+width: 65px;
+font-size: large;
+  }
+  
+  
+  ul, li {
+list-style: none;
+display: flex;
+padding: 1em;
+margin: 0;
+  }
+
+li{
+cursor: pointer;
+transition: all .5s ease-in-out;
+margin: 0.5em;
+padding: 10px 15px;
+color: #EDDB92;
+border-radius: 20px;
+}
+
+li:hover {
+background-color: #100824;
+box-shadow: 3px 5px 5px;
+
+
+
+}
+
+.LOGO{
+position: absolute;
+height: 9vh;
+left: 0px;
+width: 65px;
+top: 0; 
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+
+
+.support{
+  color: #EDDB92;
+  }
+
+  .dis{
+color: #EDDB92;
+  }
+
+  .about{
+color: #EDDB92;
+  }
+
+  .home{
+color: #EDDB92;
+  }
